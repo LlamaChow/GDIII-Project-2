@@ -1157,3 +1157,33 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.28-17.40.42:569][778]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/kraft/GitHub/GDIII-Project-2/Pirates/Content/Developers/kraft/Collections/' because it could not be accessed. Aborting watch request...
 [2023.09.28-17.40.42:569][778]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/kraft/GitHub/GDIII-Project-2/Pirates/Saved/Collections/' because it could not be accessed. Aborting watch request...
 [2023.09.28-17.40.46:252][846]LogSlate: Took 0.004429 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.09.28-17.41.32:065][371]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.28-17.41.32:074][371]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.28-17.41.32:083][372]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.28-17.41.43:823][ 67]LogContentBrowser: Attempting asset rename: NewFolder -> KraftFolder
+[2023.09.28-17.41.43:823][ 67]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.28-17.41.47:173][266]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.28-17.41.47:182][266]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.28-17.41.47:209][268]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.28-17.41.48:421][341]LogContentBrowser: Attempting asset rename: NewFolder -> Maps
+[2023.09.28-17.41.48:422][341]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.28-17.41.50:616][463]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.28-17.41.50:623][463]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.28-17.41.50:633][464]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.28-17.41.52:798][594]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2023.09.28-17.41.52:798][594]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.28-17.41.55:825][765]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.28-17.41.55:833][765]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.28-17.41.55:843][766]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.28-17.41.57:725][877]LogContentBrowser: Attempting asset rename: NewFolder -> Materials
+[2023.09.28-17.41.57:725][877]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.28-17.41.59:905][998]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.28-17.41.59:912][998]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.28-17.41.59:922][999]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.28-17.42.01:654][103]LogContentBrowser: Attempting asset rename: NewFolder -> Textures
+[2023.09.28-17.42.01:654][103]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.28-17.42.04:028][243]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.28-17.42.04:033][243]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.28-17.42.04:046][244]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.28-17.42.11:309][680]LogContentBrowser: Attempting asset rename: NewFolder -> Animations
+[2023.09.28-17.42.11:309][680]LogContentBrowser: End creating deferred item NewFolder
