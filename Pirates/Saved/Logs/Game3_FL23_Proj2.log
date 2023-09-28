@@ -1187,3 +1187,5 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.28-17.42.04:046][244]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
 [2023.09.28-17.42.11:309][680]LogContentBrowser: Attempting asset rename: NewFolder -> Animations
 [2023.09.28-17.42.11:309][680]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.28-17.44.50:921][329]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2023.09.28-17.44.50:921][329]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
