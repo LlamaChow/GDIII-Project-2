@@ -1195,3 +1195,225 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.03-17.28.21:293][778]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.09ms to complete.
 [2023.10.03-17.28.21:293][778]LogFileHelpers: Loading map 'KraftDemoLevel' took 0.099
 [2023.10.03-17.29.47:331][163]LogDerivedDataCache: C:/Users/kraft/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.214 and deleted 22 files with total size 0 MiB and 23 empty folders. Scanned 3641 files in 5518 folders with total size 210 MiB.
+[2023.10.03-17.32.05:912][983]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.03-17.32.19:647][346]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.03-17.32.41:432][516]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\kraft\GitHub\GDIII-Project-2\Pirates\Content\GD3\KraftFolder\Meshes\street_rat_4k.fbx\street_rat_4k.fbx)
+[2023.10.03-17.32.41:451][516]LogFbx: Loading FBX Scene from C:\Users\kraft\GitHub\GDIII-Project-2\Pirates\Content\GD3\KraftFolder\Meshes\street_rat_4k.fbx\street_rat_4k.fbx
+[2023.10.03-17.32.41:477][516]LogFbx: FBX Scene Loaded Succesfully
+[2023.10.03-17.32.56:906][516]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.10.03-17.32.56:951][516]LogMaterial: Display: Material /Game/GD3/KraftFolder/Meshes/street_rat.street_rat needed to have new flag set bUsedWithSkeletalMesh !
+[2023.10.03-17.32.57:080][516]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2023.10.03-17.32.57:085][516]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.10.03-17.32.57:218][516]LogTexture: Display: Building textures: /Game/GD3/KraftFolder/Meshes/street_rat_diff_4k.street_rat_diff_4k (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2023.10.03-17.32.57:358][516]LogEditorFactories: Display: Image imported as : TSF R16F
+[2023.10.03-17.32.57:381][516]LogTexture: Display: Building textures: /Game/GD3/KraftFolder/Meshes/street_rat_rough_4k.street_rat_rough_4k (RGBA16F, 4096x4096 x1x1x1) (Required Memory Estimate: 544.062492 MB), EncodeSpeed: Fast
+[2023.10.03-17.32.58:389][516]LogEditorFactories: Display: Image imported as : TSF RGBA16F
+[2023.10.03-17.32.58:463][516]LogTexture: Display: Building textures: /Game/GD3/KraftFolder/Meshes/street_rat_nor_gl_4k.street_rat_nor_gl_4k (RGBA16F, 4096x4096 x1x1x1) (Required Memory Estimate: 640.062492 MB), EncodeSpeed: Fast
+[2023.10.03-17.32.58:513][516]LogMaterial: Warning: [AssetLog] /Game/GD3/KraftFolder/Meshes/street_rat.street_rat: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Normal, should be Linear Color for /Game/GD3/KraftFolder/Meshes/street_rat_nor_gl_4k.street_rat_nor_gl_4k
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/GD3/KraftFolder/Meshes/street_rat_rough_4k.street_rat_rough_4k
+
+[2023.10.03-17.32.58:517][516]LogFbx: Triangulating skeletal mesh street_rat
+[2023.10.03-17.32.59:782][516]LogFbx: Bones digested - 1  Depth of hierarchy - 1
+[2023.10.03-17.33.00:028][516]LogSkeletalMesh: Display: /Game/GD3/KraftFolder/Meshes/street_rat_4k.street_rat_4k ComputeTangents MikkTSpace function: Compute a zero length normal vector.
+[2023.10.03-17.33.00:745][516]LogSkeletalMesh: Section 0: Material=0, 57216 triangles
+[2023.10.03-17.33.00:758][516]LogSkeletalMesh: Building Skeletal Mesh street_rat_4k...
+[2023.10.03-17.33.00:810][516]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (street_rat_4k) ...
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: ================================================
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: Total job queries 96, among them cache hits 30 (31.25%)
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: Tracking 66 distinct input hashes that result in 33 distinct outputs (50.00%)
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: RAM used: 1.55 MiB of 819.20 MiB budget. Usage: 0.19%
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: Shaders Compiled: 30
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: Jobs assigned 30, completed 30 (100.00%)
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.05 s
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: Job execution time: average 2.66 s, max 2.80 s
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: Job life time (pending + execution): average 2.71 s, max 2.85
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.85 s
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: Jobs were issued in 8 batches (only local compilation was used), average 3.75 jobs/batch
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: Average processing rate: 10.53 jobs/sec
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: Total thread time: 17.394 s
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: Total thread preprocess time: 1.184 s
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: Percentage time preprocessing: 6.81%
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: Effective parallelization: 6.10 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    2 times, average 0.84 sec, max 0.92 sec, min 0.75 sec)
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    2 times, average 0.81 sec, max 0.90 sec, min 0.72 sec)
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    2 times, average 0.80 sec, max 0.94 sec, min 0.66 sec)
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    2 times, average 0.79 sec, max 0.92 sec, min 0.66 sec)
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 0.66 sec, max 0.93 sec, min 0.39 sec)
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 9.63% of total time (compiled    2 times, average 0.84 sec, max 0.92 sec, min 0.75 sec)
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 9.32% of total time (compiled    2 times, average 0.81 sec, max 0.90 sec, min 0.72 sec)
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 9.15% of total time (compiled    2 times, average 0.80 sec, max 0.94 sec, min 0.66 sec)
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 9.14% of total time (compiled    2 times, average 0.79 sec, max 0.92 sec, min 0.66 sec)
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 7.55% of total time (compiled    2 times, average 0.66 sec, max 0.93 sec, min 0.39 sec)
+[2023.10.03-17.33.00:810][516]LogShaderCompilers: Display: ================================================
+[2023.10.03-17.33.00:869][516]LogSkeletalMesh: Display: /Game/GD3/KraftFolder/Meshes/street_rat_4k.street_rat_4k ComputeTangents MikkTSpace function: Compute a zero length normal vector.
+[2023.10.03-17.33.01:615][516]LogSkeletalMesh: Built Skeletal Mesh [0.86s] /Game/GD3/KraftFolder/Meshes/street_rat_4k.street_rat_4k
+[2023.10.03-17.33.01:810][516]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.03-17.33.01:810][516]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.03-17.33.01:827][516]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2023.10.03-17.33.01:860][516]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.10.03-17.33.01:861][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.03-17.33.01:934][516]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.03-17.33.01:934][516]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.03-17.33.01:952][516]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_4:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2023.10.03-17.33.01:952][516]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.10.03-17.33.01:952][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.03-17.33.01:968][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.10.03-17.33.01:985][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.10.03-17.33.01:992][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.10.03-17.33.02:000][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.10.03-17.33.02:020][516]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (street_rat_4k) ...
+[2023.10.03-17.33.02:032][516]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.10.03-17.33.02:032][516]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2023.10.03-17.33.02:032][516]FBXImport: Warning: The bone size is too small to create Physics Asset 'street_rat_4k_PhysicsAsset' from Skeletal Mesh 'street_rat_4k'. You will have to create physics asset manually. 
+[2023.10.03-17.33.02:148][517]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.03-17.33.02:187][518]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.03-17.33.11:020][517]LogSlate: Window 'Content Browser' being destroyed
+[2023.10.03-17.33.11:023][517]LogSlate: Window 'Content Browser' being destroyed
+[2023.10.03-17.33.16:035][996]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/GD3/KraftFolder/Meshes/street_rat_4k.street_rat_4k
+[2023.10.03-17.33.16:057][996]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.03-17.33.16:057][996]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.03-17.33.16:115][996]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.10.03-17.33.16:433][996]LogViewport: Scene viewport resized to 1134x795, mode Windowed.
+[2023.10.03-17.33.32:646][983]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/GD3/KraftFolder/Meshes/street_rat_4k_Skeleton.street_rat_4k_Skeleton
+[2023.10.03-17.33.32:647][983]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.03-17.33.32:647][983]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.03-17.33.32:673][983]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.10.03-17.33.32:770][983]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.03-17.33.32:770][983]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.03-17.33.32:862][983]LogViewport: Scene viewport resized to 1134x795, mode Windowed.
+[2023.10.03-17.34.03:410][837]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.10.03-17.34.03:410][837]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.03-17.34.03:435][837]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.10.03-17.34.03:435][837]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.03-17.34.03:445][837]LogViewport: Scene viewport resized to 1134x840, mode Windowed.
+[2023.10.03-17.34.03:473][838]LogViewport: Scene viewport resized to 1134x829, mode Windowed.
+[2023.10.03-17.34.03:685][839]LogViewport: Scene viewport resized to 1134x795, mode Windowed.
+[2023.10.03-17.34.04:539][895]LogSlate: Window 'street_rat_4k' being destroyed
+[2023.10.03-17.34.04:558][895]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.10.03-17.34.04:558][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.03-17.34.09:073][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.10.03-17.34.09:078][359]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.03-17.34.09:178][359]LogPackageLocalizationCache: Processed 44 localized package path(s) for 1 prioritized culture(s) in 0.005647 seconds
+[2023.10.03-17.34.09:180][359]LogSerialization: UsePackageTrailer: 'true'
+[2023.10.03-17.34.09:252][359]LogSavePackage: Moving output files for package: /Game/GD3/KraftFolder/Meshes/street_rat_4k
+[2023.10.03-17.34.09:252][359]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII-Project-2/Pirates/Saved/street_rat_4k89B4902F4F31CB2E32B5E69B100AC8E4.tmp' to '../../../../../../Users/kraft/GitHub/GDIII-Project-2/Pirates/Content/GD3/KraftFolder/Meshes/street_rat_4k.uasset'
+[2023.10.03-17.34.09:261][359]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GD3/KraftFolder/Meshes/street_rat" FILE="../../../../../../Users/kraft/GitHub/GDIII-Project-2/Pirates/Content/GD3/KraftFolder/Meshes/street_rat.uasset" SILENT=true
+[2023.10.03-17.34.09:263][359]LogSavePackage: Moving output files for package: /Game/GD3/KraftFolder/Meshes/street_rat
+[2023.10.03-17.34.09:263][359]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII-Project-2/Pirates/Saved/street_ratE7B42C564EC63AAD17BD259670ECDC00.tmp' to '../../../../../../Users/kraft/GitHub/GDIII-Project-2/Pirates/Content/GD3/KraftFolder/Meshes/street_rat.uasset'
+[2023.10.03-17.34.09:268][359]LogSavePackage: Moving output files for package: /Game/GD3/KraftFolder/Meshes/street_rat_diff_4k
+[2023.10.03-17.34.09:268][359]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII-Project-2/Pirates/Saved/street_rat_diff_4k522E8FE84A4F94B1A98D21B1F74ACE7D.tmp' to '../../../../../../Users/kraft/GitHub/GDIII-Project-2/Pirates/Content/GD3/KraftFolder/Meshes/street_rat_diff_4k.uasset'
+[2023.10.03-17.34.09:333][359]LogSavePackage: Moving output files for package: /Game/GD3/KraftFolder/Meshes/street_rat_rough_4k
+[2023.10.03-17.34.09:333][359]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII-Project-2/Pirates/Saved/street_rat_rough_4k36D9634045E35B57D3F6A3AA5D25A32D.tmp' to '../../../../../../Users/kraft/GitHub/GDIII-Project-2/Pirates/Content/GD3/KraftFolder/Meshes/street_rat_rough_4k.uasset'
+[2023.10.03-17.34.09:646][359]LogSavePackage: Moving output files for package: /Game/GD3/KraftFolder/Meshes/street_rat_nor_gl_4k
+[2023.10.03-17.34.09:646][359]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII-Project-2/Pirates/Saved/street_rat_nor_gl_4k1A33710A4433715E836AD89A0F71B916.tmp' to '../../../../../../Users/kraft/GitHub/GDIII-Project-2/Pirates/Content/GD3/KraftFolder/Meshes/street_rat_nor_gl_4k.uasset'
+[2023.10.03-17.34.09:655][359]LogSavePackage: Moving output files for package: /Game/GD3/KraftFolder/Meshes/street_rat_4k_Skeleton
+[2023.10.03-17.34.09:655][359]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII-Project-2/Pirates/Saved/street_rat_4k_Skeleton22974AE54E4F0C514821DFBDCDFA91E8.tmp' to '../../../../../../Users/kraft/GitHub/GDIII-Project-2/Pirates/Content/GD3/KraftFolder/Meshes/street_rat_4k_Skeleton.uasset'
+[2023.10.03-17.34.09:660][359]LogFileHelpers: InternalPromptForCheckoutAndSave took 581 ms
+[2023.10.03-17.34.09:663][359]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.03-17.34.09:663][359]LogContentValidation: Display: Validating /Script/Engine.Skeleton /Game/GD3/KraftFolder/Meshes/street_rat_4k_Skeleton.street_rat_4k_Skeleton
+[2023.10.03-17.34.09:663][359]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/GD3/KraftFolder/Meshes/street_rat_nor_gl_4k.street_rat_nor_gl_4k
+[2023.10.03-17.34.09:663][359]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/GD3/KraftFolder/Meshes/street_rat_rough_4k.street_rat_rough_4k
+[2023.10.03-17.34.09:663][359]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/GD3/KraftFolder/Meshes/street_rat_diff_4k.street_rat_diff_4k
+[2023.10.03-17.34.09:663][359]LogContentValidation: Display: Validating /Script/Engine.Material /Game/GD3/KraftFolder/Meshes/street_rat.street_rat
+[2023.10.03-17.34.09:663][359]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/GD3/KraftFolder/Meshes/street_rat_4k.street_rat_4k
+[2023.10.03-17.34.22:428][617]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/GD3/KraftFolder/Meshes/street_rat.street_rat
+[2023.10.03-17.34.22:437][617]LogMaterial: Warning: [AssetLog] /Engine/Transient.street_rat: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Normal, should be Linear Color for /Game/GD3/KraftFolder/Meshes/street_rat_nor_gl_4k.street_rat_nor_gl_4k
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/GD3/KraftFolder/Meshes/street_rat_rough_4k.street_rat_rough_4k
+
+[2023.10.03-17.34.22:446][617]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.03-17.34.22:446][617]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.03-17.34.22:552][617]LogMaterial: Warning: [AssetLog] /Engine/Transient.street_rat: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Normal, should be Linear Color for /Game/GD3/KraftFolder/Meshes/street_rat_nor_gl_4k.street_rat_nor_gl_4k
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/GD3/KraftFolder/Meshes/street_rat_rough_4k.street_rat_rough_4k
+
+[2023.10.03-17.34.22:566][617]MaterialEditorStats: Error: [SM6] (Node TextureSample) Sampler type is Normal, should be Linear Color for /Game/GD3/KraftFolder/Meshes/street_rat_nor_gl_4k.street_rat_nor_gl_4k
+[2023.10.03-17.34.22:566][617]MaterialEditorStats: Error: [SM6] (Node TextureSample) Sampler type is Color, should be Linear Color for /Game/GD3/KraftFolder/Meshes/street_rat_rough_4k.street_rat_rough_4k
+[2023.10.03-17.34.22:575][617]LogSlate: Took 0.004322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.10.03-17.34.22:578][617]LogViewport: Scene viewport resized to 372x417, mode Windowed.
+[2023.10.03-17.34.53:736][252]LogMaterial: Warning: [AssetLog] /Engine/Transient.street_rat: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Normal, should be Linear Color for /Game/GD3/KraftFolder/Meshes/street_rat_nor_gl_4k.street_rat_nor_gl_4k
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/GD3/KraftFolder/Meshes/street_rat_rough_4k.street_rat_rough_4k
+
+[2023.10.03-17.34.59:227][757]LogMaterial: Warning: [AssetLog] /Engine/Transient.street_rat: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Normal, should be Linear Color for /Game/GD3/KraftFolder/Meshes/street_rat_nor_gl_4k.street_rat_nor_gl_4k
+
+[2023.10.03-17.34.59:231][757]MaterialEditorStats: Error: [SM6] (Node TextureSample) Sampler type is Normal, should be Linear Color for /Game/GD3/KraftFolder/Meshes/street_rat_nor_gl_4k.street_rat_nor_gl_4k
+[2023.10.03-17.35.01:197][904]LogMaterial: Warning: [AssetLog] /Engine/Transient.street_rat: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Normal, should be Linear Color for /Game/GD3/KraftFolder/Meshes/street_rat_nor_gl_4k.street_rat_nor_gl_4k
+
+[2023.10.03-17.35.04:849][198]LogMaterial: Warning: [AssetLog] /Engine/Transient.street_rat: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Normal, should be Linear Color for /Game/GD3/KraftFolder/Meshes/street_rat_nor_gl_4k.street_rat_nor_gl_4k
+
+[2023.10.03-17.35.07:701][414]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.03-17.35.07:701][414]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.10.03-17.35.07:701][414]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.03-17.35.07:701][414]MaterialEditorStats: Shader Count: 0
+[2023.10.03-17.35.08:307][450]MaterialEditorStats: Texture samplers: 3/16
+[2023.10.03-17.35.08:307][450]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.10.03-17.35.08:307][450]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.03-17.35.08:307][450]MaterialEditorStats: Shader Count: 1
+[2023.10.03-17.35.08:461][459]MaterialEditorStats: Base pass shader: 238 instructions
+[2023.10.03-17.35.08:461][459]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2023.10.03-17.35.08:461][459]MaterialEditorStats: Texture samplers: 7/16
+[2023.10.03-17.35.08:461][459]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.10.03-17.35.08:461][459]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.03-17.35.08:461][459]MaterialEditorStats: Shader Count: 4
+[2023.10.03-17.35.09:030][498]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.03-17.35.09:030][498]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.10.03-17.35.09:030][498]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.03-17.35.09:030][498]MaterialEditorStats: Shader Count: 0
+[2023.10.03-17.35.09:537][532]MaterialEditorStats: Texture samplers: 3/16
+[2023.10.03-17.35.09:537][532]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.10.03-17.35.09:537][532]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.03-17.35.09:537][532]MaterialEditorStats: Shader Count: 1
+[2023.10.03-17.35.09:751][547]MaterialEditorStats: Base pass shader: 238 instructions
+[2023.10.03-17.35.09:751][547]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2023.10.03-17.35.09:751][547]MaterialEditorStats: Texture samplers: 7/16
+[2023.10.03-17.35.09:751][547]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.10.03-17.35.09:751][547]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.03-17.35.09:751][547]MaterialEditorStats: Shader Count: 4
+[2023.10.03-17.35.12:818][779]LogMaterialEditor: Saving and Compiling material street_rat
+[2023.10.03-17.35.12:876][779]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.10.03-17.35.13:395][779]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.10.03-17.35.13:405][779]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.03-17.35.15:491][779]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2023.10.03-17.35.15:628][779]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' report submitted, and took 0.049937s
+[2023.10.03-17.35.15:800][779]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.001105s (0.220759s overbudget)
+[2023.10.03-17.35.15:850][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GD3/KraftFolder/Meshes/street_rat" FILE="../../../../../../Users/kraft/GitHub/GDIII-Project-2/Pirates/Content/GD3/KraftFolder/Meshes/street_rat.uasset" SILENT=true
+[2023.10.03-17.35.15:852][779]LogSavePackage: Moving output files for package: /Game/GD3/KraftFolder/Meshes/street_rat
+[2023.10.03-17.35.15:853][779]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII-Project-2/Pirates/Saved/street_rat461551904212EAB20BD80789BAB8F4A9.tmp' to '../../../../../../Users/kraft/GitHub/GDIII-Project-2/Pirates/Content/GD3/KraftFolder/Meshes/street_rat.uasset'
+[2023.10.03-17.35.15:857][779]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.45 sec (total: 3.03 sec)
+[2023.10.03-17.35.15:861][779]AssetCheck: New page: Asset Save: street_rat
+[2023.10.03-17.35.15:861][779]LogContentValidation: Display: Validating /Script/Engine.Material /Game/GD3/KraftFolder/Meshes/street_rat.street_rat
+[2023.10.03-17.35.15:861][779]MaterialEditorStats: Base pass shader: 238 instructions
+[2023.10.03-17.35.15:861][779]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2023.10.03-17.35.15:861][779]MaterialEditorStats: MaxSampler: 287 instructions
+[2023.10.03-17.35.15:861][779]MaterialEditorStats: Base pass vertex shader: 522 instructions
+[2023.10.03-17.35.15:861][779]MaterialEditorStats: Texture samplers: 8/16
+[2023.10.03-17.35.15:861][779]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.10.03-17.35.15:861][779]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.03-17.35.15:861][779]MaterialEditorStats: Shader Count: 30
+[2023.10.03-17.35.18:416][966]LogSlate: Window 'street_rat' being destroyed
+[2023.10.03-17.35.18:430][966]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2023.10.03-17.35.18:430][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.03-17.35.23:373][397]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/GD3/KraftFolder/Meshes/street_rat_4k.street_rat_4k
+[2023.10.03-17.35.23:375][397]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.03-17.35.23:375][397]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.03-17.35.23:393][397]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.10.03-17.35.23:558][397]LogToolMenus: Warning: Menu already registered : SkeletalMeshEditor.MeshContextMenu
+[2023.10.03-17.35.23:626][397]LogViewport: Scene viewport resized to 1134x795, mode Windowed.
+[2023.10.03-17.36.02:873][681]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.03-17.36.02:971][681]LogSavePackage: Moving output files for package: /Game/GD3/KraftFolder/Meshes/street_rat_4k
+[2023.10.03-17.36.02:972][681]LogSavePackage: Moving '../../../../../../Users/kraft/GitHub/GDIII-Project-2/Pirates/Saved/street_rat_4k4E5874274FF9E7A24F940B890E286992.tmp' to '../../../../../../Users/kraft/GitHub/GDIII-Project-2/Pirates/Content/GD3/KraftFolder/Meshes/street_rat_4k.uasset'
+[2023.10.03-17.36.02:980][681]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 3.13 sec)
+[2023.10.03-17.36.02:983][681]AssetCheck: New page: Asset Save: street_rat_4k
+[2023.10.03-17.36.02:983][681]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/GD3/KraftFolder/Meshes/street_rat_4k.street_rat_4k
+[2023.10.03-17.36.04:129][756]LogSlate: Window 'street_rat_4k' being destroyed
+[2023.10.03-17.36.04:146][756]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2023.10.03-17.36.04:147][756]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
